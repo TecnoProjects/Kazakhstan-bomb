@@ -1,6 +1,7 @@
 # Kazakhstan bomb script
 
 ### Primero, en nuestra rerminal de linux escribiremos:
+## First of all, we'll type in our linux terminal:
 
 
 ```python -m pip install -r requirements.txt```
@@ -39,7 +40,8 @@ EN: Type the number of messages you want to send
 then, you'll have 5 seconds to go to the application where you want to send the messages
 After the 5 seconds passed, it will start spamming
 
-# To stop
+# Para pararlo
+## To stop it...
 ES: Si quieres cancelarlo mientras está spammeando, solo tienes que presionar la tecla "1" y
 parará automaticamente, o también puedes ir a tu terminal y cancelarlo usando Ctrl + C.
 
