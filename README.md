@@ -1,10 +1,18 @@
 # Kazakhstan bomb script
+# Windows
+ES: Descargar el zip y extraerlo, abrir cmd como administrador y entrar al directorio donde lo descargamos y hacemos:
+EN: Download the zip code and extract it, open cmd as administrator, change your directory to the script one and then:
+```pip install -r requirements.txt```
 
+After that, just run the script like normally
+```python3 spamscriptarab.py```
+
+# Linux
 ### Primero, en nuestra rerminal de linux escribiremos:
 ## First of all, we'll type in our linux terminal:
 
 
-```python -m pip install -r requirements.txt```
+```python3 -m pip install -r requirements.txt```
 
 
 ES: Luego, escribiremos el siguiente comando 
@@ -30,7 +38,7 @@ or
 
 # Uso
 do:
-```sudo python spamscriptarab.py```
+```sudo python3 spamscriptarab.py```
 
 ES: Escribe el numero de mensajes que quieras mandar
 y tendras 5 segundos para ir a la aplicacion donde quieres
