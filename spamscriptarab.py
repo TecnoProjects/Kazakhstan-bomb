@@ -45,12 +45,16 @@ print(colorama.Fore.LIGHTGREEN_EX,
       "[*]", colorama.Style.RESET_ALL,
       "Input the number of messages you wanna bomb with")
 election = int(input("->    "))
+print(colorama.Fore.LIGHTGREEN_EX,
+      "[*]", colorama.Style.RESET_ALL,
+      "Input the cooldown you want to have")
+election_cld = int(input("->    "))
 pyautogui.PAUSE = 0.028
-cnt = 5
-for i in range(5):
+
+for i in range(election_cld):
     
-    print(colorama.Fore.LIGHTGREEN_EX, "[*]", colorama.Style.RESET_ALL, f"Starting in... {cnt} seconds..")
-    cnt -= 1
+    print(colorama.Fore.LIGHTGREEN_EX, "[*]", colorama.Style.RESET_ALL, f"Starting in... {election_cld} seconds..")
+    election_cld -= 1
     pyautogui.sleep(1)
 print(colorama.Fore.RED, "~~~Starting...~~~", colorama.Style.RESET_ALL)
 try:
