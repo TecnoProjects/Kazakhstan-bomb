@@ -5,7 +5,7 @@ EN: Download the zip code and extract it, open cmd as administrator, change your
 ```pip install -r requirements.txt```
 
 After that, just run the script like normally
-```python3 spamscriptarab.py```
+```python spamscriptarab.py```
 
 # Linux
 ### Primero, en nuestra rerminal de linux escribiremos:
