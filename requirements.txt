@@ -1,6 +1,5 @@
 pyautogui
 pyperclip
 keyboard
-PyQt4
 gtk
 colorama
