@@ -3,7 +3,6 @@ import pyperclip
 import keyboard
 import random
 import colorama
-# from gencode import Gencode
 
 print("""
     _                  _    _         _
