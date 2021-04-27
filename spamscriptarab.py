@@ -48,7 +48,22 @@ print(colorama.Fore.LIGHTGREEN_EX,
       "[*]", colorama.Style.RESET_ALL,
       "Input the cooldown you want to have")
 election_cld = int(input("->    "))
+
+
+
+
+# This line is IMPORTANT, it will define how faster the spam will be
+# Since this is open source, you can modify this as you want
+
+"""Examples"""
+"""anti discord cooldown"""
+# pyautogui.PAUSE = 1.5
+"""ABSOLUTELY INSANE spam""" 
+# pyautogui.PAUSE = 0
+# Just modify it! its completely free dude!
+
 pyautogui.PAUSE = 0.028
+
 
 for i in range(election_cld):
     
